@@ -157,14 +157,7 @@ def look_for_people_around_me(user_id):
     query_res=df2[(df2["User_Location"]==location) & (df2["User_Occupation"]==occupation)]
     
     query_res.to_excel("query_request.xlsx")
-    
-    #retrieve the user IDs from query search
-    user_id3=list(list(query_res.iloc[:,0]))
-    
-    #Print all paths from (user_id) to (user_id3)
-    
-    for i in user_id3:
-        print(know_all_path(G,user_id,i,3))
+
         
         
         
