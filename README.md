@@ -21,7 +21,7 @@ cutoff : hops cutoff, datatype = int
 user_id:  source node (user), datatype = int
 
 EXAMPLE RUN
-2.know_all_path (G,4, 50, 3)
+1. know_all_path (G,4, 50, 3)
 2. know_shortest_path (G, 7, 40)
 3. know_relation (5,80)
 4. look_for_people_around_me (50)
