@@ -1,3 +1,4 @@
+# MindMatch README
 The dataset used comprises 10000 users with user details randomly generated using Python. The script is divided into four sections: Section 1: Building the model network, Section 2: Preparing the dataset (Part 1) , Section 3: Preparing the dataset (Part 2) , and Section 4:  Functions and Analysis. Check the script for more information.
 
 FUNCTIONS
