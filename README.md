@@ -2,8 +2,17 @@
 
 ### Mindmatch is a simple network science implementation to fetch professional details of users and their connections. This is a case of a social network where people are connected to each other via social ties (eg: from work environments, travel friends, colleagues, or simply next door neighbours). 
 
+Imagine a social media platform where users create accounts by inputting some basic information like age, sex, school, graduation year, hobbies, companies for which they have worked or are preserntly working in. MindMatch treats all these users as a large connected Albert-Barabasi Graph G. Now, you want know how many cardiologists are there in your city and how closer they are to you. MindMatch is going to fetch you a list of all the cardiologists in your city and via who all they are "connected" to you. 
+
+
 ### TEST DATASET
-The dataset used comprises 10000 users with user details randomly generated using Python. The script is divided into four sections: Section 1: Building the model network, Section 2: Preparing the dataset (Part 1) , Section 3: Preparing the dataset (Part 2) , and Section 4:  Functions and Analysis. Check the script for more information.
+The dataset used comprises 10000 users with user details randomly generated using Python. The script is divided into four sections: 
+Section 1: Building the model network
+Section 2: Preparing the dataset (Part 1)
+Section 3: Preparing the dataset (Part 2)
+Section 4:  Functions and Analysis. 
+
+Check the script for more information.
 
 ### FUNCTIONS
 To test the script, plug in values for any of the functions from the function manual:
@@ -20,10 +29,10 @@ To test the script, plug in values for any of the functions from the function ma
 
 ### MORE DETAILS
 G : An Albert-Barabasi graph object of 10000 nodes (users) and starting degree = 2
-source : source node (user), datatype = int
-target : target node (user), datatype = int
-cutoff : hops cutoff, datatype = int
-user_id:  source node (user), datatype = int
+**source** : source node (user), datatype = int
+**target** : target node (user), datatype = int
+**cutoff** : hops cutoff, datatype = int
+**user_id**:  source node (user), datatype = int
 
 ### EXAMPLE RUN
 
@@ -36,8 +45,14 @@ Download and run the python script and run each of these functions:
    
 2. know_shortest_path (G, 7, 40)
 
-   This function returns the shortest path between two users. From the users dataset of 10000 people, we would like to know the shortest route from user 7 and user 40. In 
+   This function returns the shortest path between two users. From the users dataset of 10000 people, we would like to know the shortest route from user 7 to user 40. In 
    social terms, we wouldl like to know who all are the closest mutuals between user 7 and user 40.
    
-4. know_relation (5,80)
-5. look_for_people_around_me (50)
+3. know_relation (5,80)
+
+   Wondering how any two given users can possibly be "connected"? This function does exactly that. Given two users, it can tell you how they are connected (eg: colleagues, 
+   same workplace, went to same university and so on)
+   
+4. look_for_people_around_me (50)
+
+   Given any user, cuious to know how you two can be possibly connected? This function gives you a lsit of all the users that connects you to the other user.
