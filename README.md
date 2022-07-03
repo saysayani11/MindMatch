@@ -41,7 +41,7 @@ user_id:  source node (user), datatype = int
 ### EXAMPLE RUN
 
 Download and run the python script and run each of these functions:
-1. **know_all_path (G, 4, 50, 3) **
+1. **know_all_path (G, 4, 50, 3)**
    
    This means that in the users dataset G comprising 10000 people, we would like to know the number of people that connects user 4 and user 50. "Connections" can happen
    by way of other people that "know" or "connect" user 4, leading to a "path" till user 50. The fourth argument is the cut-off on the "path" length, i.e, the path between 
