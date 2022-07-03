@@ -15,7 +15,7 @@ Section 4:  Functions and Analysis.
 Check the script for more information.
 
 ### FUNCTIONS
-To test the script, plug in values for any of the functions from the function manual:
+###### To test the script, plug in values for any of the functions from the function manual:
 1. know_all_path : _Know who connects two users and how_
 2. know_shortest_path : _Know the shortest possible connection between two users_
 3. know_relation : _Know how two people are connected_
@@ -29,10 +29,10 @@ To test the script, plug in values for any of the functions from the function ma
 
 ### MORE DETAILS
 G : An Albert-Barabasi graph object of 10000 nodes (users) and starting degree = 2
-**source** : source node (user), datatype = int
-**target** : target node (user), datatype = int
-**cutoff** : hops cutoff, datatype = int
-**user_id**:  source node (user), datatype = int
+source : source node (user), datatype = int
+target : target node (user), datatype = int
+cutoff : hops cutoff, datatype = int
+user_id:  source node (user), datatype = int
 
 ### EXAMPLE RUN
 
