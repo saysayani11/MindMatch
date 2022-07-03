@@ -2,7 +2,7 @@
 
 ### Mindmatch is a simple network science implementation to fetch professional details of users and their connections. This is a case of a social network where people are connected to each other via social ties (eg: from work environments, travel friends, colleagues, or simply next door neighbours). 
 
-Imagine a social media platform where users create accounts by inputting some basic information like age, sex, school, graduation year, hobbies, companies for which they have worked or are preserntly working in. MindMatch treats all these users as a large connected Albert-Barabasi Graph G. Now, you want know how many cardiologists are there in your city and how closer they are to you. MindMatch is going to fetch you a list of all the cardiologists in your city and via who all they are "connected" to you. 
+For more details on what MindMatch is, please go over to https://github.com/saysayani11/MindMatch/blob/main/Mindmatch.pdf
 
 
 ### TEST DATASET
